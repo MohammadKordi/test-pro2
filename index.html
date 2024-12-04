@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--========== BOX ICONS ==========-->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+
+        <!--========== CSS ==========-->
+        <link rel="stylesheet" href="CSS/style.css">
+
+        <title>Responsive resume cv</title>
+    </head>
+    <body>
+        <!--========== HEADER ==========-->
+        <header class="l-header" id="header">
+            <nav class="nav bd-container">
+                <a href="#" class="nav__logo">Mohammad Kordi</a>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="#home" class="nav__link active-link">
+                                <i class='bx bx-home nav__icon'></i>Home
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#profile" class="nav__link active-link">
+                                <i class='bx bx-user nav__icon' ></i>Profile
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#education" class="nav__link active-link">
+                                <i class='bx bx-book nav__icon' ></i>Education
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#skills" class="nav__link active-link">
+                                <i class='bx bx-receipt nav__icon' ></i>Skills
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#experience" class="nav__link active-link">
+                                <i class='bx bx-briefcase nav__icon' ></i>Experience
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#certificates" class="nav__link active-link">
+                                <i class='bx bx-award nav__icon' ></i>Certificates
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-grid-alt nav__icon' ></i>
+                </div>
+            </nav>
+        </header>
+
+        <main class="l-main bd-container">
+            <!-- All elements within this div, is generated in PDF -->
+            <div class="resume" id="area-cv">
+                <div class="resume__left">
+                    <!--========== HOME ==========-->
+                    <section class="home" id="home">
+                        <div class="home__container section bd-grid">
+                            <div class="home__data bd-grid">
+                                <img src="img/img1.jpg" alt="" class="home__img">
+                                
+                                <h1 class="home__title">Mohammad <b>Kordi</b></h1>
+                                <h3 class="home__profession">Web Developer</h3>
+                                <div>
+                                    <a href="cv/Blank.pdf" class="home__button-movil">Download</a>
+                                </div>
+                            </div>
+
+                            <div class="home__address bd-grid">
+                                <span class="home__information">
+                                    <i class='bx bx-map home__icon' ></i> Al Ramtha-Irbid-Jordan
+                                </span>
+                                <span class="home__information">
+                                    <i class='bx bx-envelope home__icon' ></i> mohkordi21@gmail.com
+                                </span>
+                                <span class="home__information">
+                                    <i class='bx bx-phone home__icon' ></i> +962 790 476 651
+                                </span>
+                            </div>
+                        </div>
+                        <!-- Theme change button -->
+                        <i class='bx bx-moon change-theme' title="Theme" id="theme-button"></i>
+
+                        <!-- Button to generate and download the pdf. Available for desktop. -->
+                        <i class='bx bx-download generate-pdf' title="Generate PDF" id="resume-button" ></i>
+                    </section>          
+                    
+                    <!--========== SOCIAL ==========-->
+                    <section class="social section">
+                        <h2 class="section-title">SOCIAL</h2>
+
+                        <div class="social__container bd-grid">
+                            <a href="https://www.linkedin.com/in/mohammad-kordi-432822325?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app " target="_blank" class="social__link">
+                                <i class='bx bxl-linkedin-square social__icon'></i>Mohammad Kordi
+                            </a>
+                            <a href="https://www.facebook.com/profile.php?id=100037108089309&mibextid=LQQJ4d" target="_blank" class="social__link">
+                                <i class='bx bxl-facebook social__icon' ></i>Mohammad Kordi
+                            </a>
+                            <a href="https://www.instagram.com/mohkordi2/profilecard/?igsh=ZTFqbWI3YWRrdXZr" target="_blank" class="social__link">
+                                <i class='bx bxl-instagram social__icon' ></i>mohkordi2
+                            </a>
+                        </div>
+                    </section>
+
+                    <!--========== PROFILE ==========-->
+                    <section class="profile section" id="profile">
+                        <h2 class="section-title">Profile</h2>
+
+                        <p class="profile__description">Hello! My name is Mohammad Al-Kurdi, and I am a second-year 
+                            student at Jadara University, majoring in Computer Science. I have a deep passion for 
+                            technology and programming, particularly web development, where I enjoy combining 
+                            creativity with technical skills. To further enhance my knowledge, I participated in a 
+                            three-month programming course with Orange, where I deepened my understanding of various 
+                            programming languages and development techniques. Outside of my studies.</p>
+                    </section>
+                    
+                    <!--========== EDUCATION ==========-->
+                    <section class="education section" id="education">
+                        <h2 class="section-title">Education</h2>
+
+                        <div class="education__container bd-grid">
+                            <div class="education__content">
+                                <div class="education__time">
+                                    <span class="education__rounder"></span>
+                                        <span class="education__line"></span>
+                                </div>
+                                <div class="education__data bd-grid">
+                                    <h3 class="education__title">UI/UX DESINER</h3>
+                                    <span class="education__studies">Orange Academy</span>
+                                    <span class="education__year">Aug 15 - Aug 20</span>
+                                </div>
+                            </div>
+                            
+                            <div class="education__content">
+                                <div class="education__time">
+                                    <span class="education__rounder"></span>
+                                        <span class="education__line"></span>
+                                </div>
+                                <div class="education__data bd-grid">
+                                    <h3 class="education__title">FRONTEND DEVELOPER</h3>
+                                    <span class="education__studies">Orange Academy</span>
+                                    <span class="education__year">Aug 21 - Sep 4</span>
+                                </div>
+                            </div>
+
+                            <div class="education__content">
+                                <div class="education__time">
+                                    <span class="education__rounder"></span>
+                                        <!-- <span class="education__line"></span> -->
+                                </div>
+                                <div class="education__data bd-grid">
+                                    <h3 class="education__title">BACKEND DEVELOPER</h3>
+                                    <span class="education__studies">Orange Academy</span>
+                                    <span class="education__year">Sep 5 - Sep 20</span>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+
+                    <!--========== SKILLS  ==========-->
+                    <section class="skills section" id="skills">
+                        <h2 class="section-title">Skills</h2>
+
+                        <div class="skills__content bd-grid">
+                            <ul class="skills__data">
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span> HTML5
+                                </li>
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span> CSS
+                                </li>
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span> JS
+                                </li>
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span> UI/UX 
+                                </li>
+                                
+                            </ul>
+                            <ul class="skills__data">
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span> C#
+                                </li>
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span> SQL Server
+                                </li>
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span> ASP.NET Core
+                                </li>
+                            </ul>
+                        </div>
+                    </section>
+                </div>
+
+                <div class="resume__right">
+                    <!--========== EXPERIENCE ==========-->
+                    <section class="experience section" id="experience">
+                        <h2 class="section-title">EXPERIENCE</h2>
+
+                        <div class="experience__container bd-grid">
+                            <div class="experience__content">
+                                <div class="experience__time">
+                                    <span class="experience__rounder"></span>
+                                    <span class="experience__line"></span>
+                                </div>
+
+                                <div class="experience__data bd-grid">
+                                    <h3 class="experience__title">UI/UX DESINER</h3>
+                                    <span class="experience__company">From Aug 15 to Aug 20 | Orange Academy</span>
+                                    <p class="experience__description">The training covers topics such as prototyping, 
+                                        software design, user research, and usability testing.</p>
+                                </div>
+                            </div>
+                            <div class="experience__content">
+                                <div class="experience__time">
+                                    <span class="experience__rounder"></span>
+                                    <span class="experience__line"></span>
+                                </div>
+
+                                <div class="experience__data bd-grid">
+                                    <h3 class="experience__title">FRONTEND DEVELOPER</h3>
+                                    <span class="experience__company">From Aug 21 - Sep 4 | Orange Academy</span>
+                                    <p class="experience__description">Participants learn the essential skills needed to build interactive and 
+                                        visually appealing websites. The training covers HTML, CSS, and JavaScript.</p>
+                                </div>
+                            </div>
+                            <div class="experience__content">
+                                <div class="experience__time">
+                                    <span class="experience__rounder"></span>
+                                    <!-- <span class="experience__line"></span> -->
+                                </div>
+
+                                <div class="experience__data bd-grid">
+                                    <h3 class="experience__title">BACKEND DEVELOPER</h3>
+                                    <span class="experience__company">From Sep 5 - Sep 20 | Orange Academy</span>
+                                    <p class="experience__description">Participants learn how to build robust server-side applications using 
+                                        C#, SQL Server, and ASP.NET Core.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!--========== CERTIFICATES ==========-->
+                    <section class="certificate section" id="certificates">
+                        <h2 class="section-title">CERTIFICATES</h2>
+
+                        <div class="certificate__container bd-grid">
+                            <div class="certificate__content">
+                                <h3 class="certificate__title">I have received a Certificate of Completion for 
+                                    the Full Stack Development training at Orange (2024)</h3>
+                                    <p class="certificate__description">This experience has provided me with the necessary 
+                                        skills to build comprehensive and advanced web applications.</p>
+                            </div>
+                            <div class="certificate__content">
+                                <h3 class="certificate__title">I have received a Certificate of Completion for the C++ 
+                                    Programming course at Programming Advise (2023)</h3>
+                                    <p class="certificate__description">I learned advanced concepts of C++, 
+                                        including data structures, object-oriented programming.</p>
+                            </div>
+                            <div class="certificate__content">
+                                <h3 class="certificate__title">I have received a Certificate of Completion for a Job Training Day in Amman (2024)</h3>
+                                    <p class="certificate__description">This experience was a great opportunity to expand my knowledge and apply 
+                                        the skills I learned in a real work context.</p>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!--========== LANGUAGES ==========-->
+                    <section class="languages section">
+                        <h2 class="section-title">LANGUAGES</h2>
+
+                        <div class="languages__container">
+                            <ul class="languages__content bd-grid">
+                                <li class="languages__name">
+                                    <span class="languages__circle"></span> Arabic
+                                </li>
+                                <li class="languages__name">
+                                    <span class="languages__circle"></span> English
+                                </li>
+                            </ul>
+                        </div>
+                    </section>
+                    
+                    <!--========== INTERESTS ==========-->
+                    <section class="interests section">
+                        <h2 class="section-title">INTERESTS</h2>
+
+                        <div class="interests__container bd-grid">
+                            <div class="interests__content">
+                                <i class='bx bx-book interests__icon ' ></i>
+                                <span class="interests__name">Read</span>
+                            </div>
+                            <div class="interests__content">
+                                <i class='bx bx-football interests__icon ' ></i>
+                                <span class="interests__name">Football</span>
+                            </div>
+                            <div class="interests__content">
+                                <i class='bx bx-dumbbell interests__icon ' ></i>
+                                <span class="interests__name">Fitness</span>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>        
+        </main>
+
+        <!--========== SCROLL TOP ==========-->
+        <a href="#" class="scrolltop" id="scroll-top">
+            <i class='bx bx-up-arrow-alt scrolltop__icon' ></i>
+        </a>
+
+        <!--========== HTML2PDF ==========-->
+        <script src="JS/html2pdf.bundle.min.js"></script>
+
+        <!--========== MAIN JS ==========-->
+        <script src="JS/script.js"></script>
+    </body>
+</html>
